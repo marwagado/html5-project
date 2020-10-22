@@ -1,0 +1,59 @@
+#input_container{
+  width: 70%;
+  margin: auto;
+  padding: 20px;
+  border: black 2px solid;
+  margin-bottom: 20px;
+}
+
+#input_container input{
+    margin: 15px;
+}
+
+#myForm{
+  text-align: center;
+}
+
+#checkItems {
+  width: 20%;
+  margin: auto;
+}
+
+#graphs{
+  margin-bottom: 50px;
+  margin-left: 50x;
+}
+
+#checkItems input , #checkItems label{
+    margin-left: 20px;
+}
+
+#checkItems button{
+  margin-left: 100px;
+  margin-top: 20px;
+}
+
+#dough_chart{
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.grid {
+  stroke: #000;
+  stroke-dasharray: 0;
+  stroke-width: 1;
+}
+
+.labels {
+  font-size: 13px;
+}
+.labels.x-labels {
+  text-anchor: middle;
+}
+
+.labels.y-labels {
+  text-anchor: end;
+}
+#summary{
+    text-align: center;
+}

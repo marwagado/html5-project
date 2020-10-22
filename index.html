@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="myStyle.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" 
+    integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.min.js"></script>
+
+</head>
+<body>
+    
+<div id="container">
+<form action="" id="myForm">
+<div  id = "input_container" > 
+<input type="text" id= "track1" name="track1" value="" placeholder="FirstCourse"/>  
+<input type="number" id="track1Percent" value="" name="track1Percent" min="1" placeholder="FirstCourseGrade"/>
+<input type="color" id="course1-color" name="course1-color" value="" width="200px">
+<br>
+
+<input type="text" id= "track2" value="" name="track2" placeholder="SecondCourse"/> 
+<input type="number" id="track2Percent" value="" name="track2Percent" min="1" placeholder="SecondCourseGrade">
+<input type="color" id="course2-color" name="course2-color" value="" >
+<br>
+
+<input type="text" id= "track3" value=""  name="track3" placeholder="ThirdCourse" /> 
+<input type="number" id="track3Percent" value="" name="track3Percent" min="1" placeholder="ThirdCourseGrade">
+<input type="color" id="course3-color" name="course3-color" value="" >
+<br>
+
+<input type="text" id= "track4" value="" name="track4" placeholder="FourthCourse"/> 
+<input type="number" id="track4Percent" value="" name="track4Percent" min="1" placeholder="FourthCourseGrade"> 
+<input type="color" id="course4-color" name="course4-color" value="" >
+
+</div>
+<div id="checkItems">
+<input type="checkbox" id="pie_chart" name="graph" value="pie_chart">
+<label for="pie-chart">pie-chart</label>
+<input type="checkbox" id="doughnut" name="graph" value="doughnut">
+<label for="doughnut">doughnut</label><br>
+<input type="checkbox" id="line_chart" name="graph" value="line_chart">
+<label for="line-chart">line-chart</label>
+<input type="checkbox" id="bar_chart"  name="graph" value="bar_chart">
+<label for="bar-chart">bar-chart</label>
+<br>
+<button type="submit" id="draw">Draw</button>
+</div>
+</form>
+</div>
+
+<div id="graphs"></div>
+<div id="summary"></div>
+
+
+<script src="mycanvas.js"></script>
+
+</body>
+</html>
